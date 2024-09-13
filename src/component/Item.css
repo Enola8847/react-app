@@ -1,0 +1,25 @@
+.list-item{
+   display: flex;
+   align-items:center;
+   justify-content: space-between;
+transition: transform 150ms ease-out;
+border-radius: 0.25rem;
+margin-top: 0.5rem;
+padding: 0.25rem 2rem;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+font-size: 1.2rem;
+}
+.list-item:hover{
+        transform: translate(0px, 0px) scale(1.05, 1.05)
+}
+.title{
+    font-weight: bold;
+    color: #000;
+}
+.btn{
+    font-size: 1.2rem;
+    margin-left: 0.8rem;
+    cursor: pointer;
+    color: #000;
+}
+
